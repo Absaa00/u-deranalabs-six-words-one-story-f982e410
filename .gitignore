@@ -1,0 +1,9 @@
+# Six-word story entry: keep local run artefacts out of the repo.
+# (Local test output goes to a temp dir, never committed.)
+/output/
+entry.txt
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
